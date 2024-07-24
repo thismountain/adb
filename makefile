@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall -Wextra
 LDFLAGS =
 TARGET = add-nbo
-SRC = add_nbo.cpp
+SRC = add-nbo.cpp
 OBJ = $(SRC:.cpp=.o)
 
 all: $(TARGET)
